@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --color_texto:#5c3d5b;
+    --color_elementos_fieldset:#4d3e6b;
+    --color_boton:#f07360;
+}
+nav{ /* utilizamos un selector de tipo, para afectar al contenedor */
+/*     display:flex; se le aplica flex al contendor de nav, lo que 
+    permite una distribucion flexible de los elementos */
+    display: flex;
+    justify-content: space-between; /* permite que haya espacio */
+    align-items: center;
+}
+
+#logo img{
+    width: 300px;
+    height: auto;
+    margin: 10px 15px;
+}
+
+nav>ul{
+    list-style-type: none;
+    display:flex;
+}
+
+.elementos-navegacion{
+    margin: 20px 50px;
+    font-size: 1.3em;
+}

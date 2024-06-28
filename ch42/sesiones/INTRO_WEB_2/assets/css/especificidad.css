@@ -1,0 +1,25 @@
+.titulo{ /* valor de 10, es especificidad */
+    color: royalblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1.titulo{
+    color:crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* valor de 1: selectores de tipo, etiueta y los pseudo-elementos.
+valor de 10: los selectores de clase, atributo y los pseudo-clases */
+
+h1 { /* valor de 1 especificidad */
+    color: #f0808f;
+    font-family: cursive;
+}
+#titulo-principal{
+    color:cornflowerblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+h1{
+    color:rgb(128, 0,128)
+}

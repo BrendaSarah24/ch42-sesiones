@@ -1,0 +1,16 @@
+*{ /* este es un selector universal. Se selecciona todos los elementos */
+    background-color: rgb(182, 194, 218);
+}
+
+h2{/* vienen los selectores de tipo, estos seleccionan a los elementos que 
+    solo tienen ese nombre */
+    color:plum;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subcategoria{
+    background-color: bisque;
+}
+h3{
+    color:aquamarine;
+}
